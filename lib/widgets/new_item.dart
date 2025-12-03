@@ -142,8 +142,7 @@ class _NewItemState extends State<NewItem> {
                     onPressed: _beSending
                         ? null
                         : () {
-                            _formKey.currentState!
-                                .reset(); // se resean los datos
+                            _formKey.currentState!.reset(); // se resetean datos
                           },
                     child: const Text('Limpiar datos'),
                   ),
